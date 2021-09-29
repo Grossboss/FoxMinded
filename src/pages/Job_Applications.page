@@ -1,6 +1,6 @@
-<apex:page standardController="Job_Application__c" recordSetVar="applications">
+<apex:page standardController="Job_Application__c" recordSetVar="application">
     <apex:pageBlock title="Applications List">
-        <apex:pageBlockTable value="{! applications}" var="ja">
+        <apex:pageBlockTable value="{! application}" var="ja">
             <apex:column value="{! ja.Name }"/>
             <apex:column value="{! ja.candidate__c }"/>
             <apex:column value="{! ja.Position__c }"/>
